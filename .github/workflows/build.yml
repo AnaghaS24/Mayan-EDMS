@@ -16,3 +16,7 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
+    - name: Get A Dad Joke
+      # You may pin to the exact commit or the version.
+      # uses: mickeygoussetorg/get-a-dad-joke@7e1b98da89d1309bb0e93bf9a52a34d3845060db
+      uses: mickeygoussetorg/get-a-dad-joke@v1
